@@ -5,8 +5,12 @@ function App() {
     <body>
       <div className=''>
         <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
-        {/* <!-- Masthead--> */}
+    {/* <!-- Masthead--> */}
         <div className="masthead vh-100 d-flex align-items-center justify-content-center">
+            {/* Logo at the top */}
+            <div className="logo-container text-center">
+             <img src="assets/img/logo.png" alt="Logo" className="logo-image" />
+           </div>
         <div className="masthead-content text-white text-center">
           <div className="container-fluid px-4 px-lg-0">
             <h1 className="fst-italic lh-1 mb-4">We Are Coming Soon...</h1>
