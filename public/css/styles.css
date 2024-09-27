@@ -7665,10 +7665,12 @@ textarea.form-control-lg {
 
 .mb-4 {
   margin-bottom: 1.5rem !important;
+  
 }
 
 .mb-5 {
   margin-bottom: 3rem !important;
+  text-align:justify;
 }
 
 .mb-auto {
@@ -7937,6 +7939,7 @@ textarea.form-control-lg {
 
 .fst-italic {
   font-style: italic !important;
+  text-align: left;
 }
 
 .fst-normal {
