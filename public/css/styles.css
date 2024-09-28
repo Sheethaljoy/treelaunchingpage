@@ -84,15 +84,26 @@
 *::after {
   box-sizing: border-box;
 }
-.logo-container {
-  margin-top: 20px; /* Adjust margin as needed */
-  display:block;
-}
-
 .logo-image {
   max-width: 250px; /* Adjust size as needed */
   height: 250px;
+  opacity: 1; /* Ensures full visibility */
 }
+
+/* Mobile view styles */
+@media only screen and (max-width: 768px) {
+  .logo-container {
+    margin-top: 10px; /* Adjust margin for mobile */
+    text-align: center; /* Center the logo */
+  }
+
+  .logo-image {
+    max-width: 150px; /* Adjust logo size for mobile */
+    height: auto; /* Maintain aspect ratio */
+    opacity: 1; /* Ensure full visibility on mobile */
+  }
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -10845,6 +10856,7 @@ body {
   height: 100%;
   position: relative;
 }
+/*////////////////////////////*/
 body:before {
   content: "";
   position: fixed;
@@ -10853,7 +10865,7 @@ body:before {
   height: 100%;
   width: 100%;
   background-color: #2a5555;
-  opacity: 0.7;
+  opacity: 0.3;
   z-index: 1;
 }
 
@@ -10870,10 +10882,6 @@ video.bg-video {
 }
 
 @media (pointer: coarse) and (hover: none) {
-  body {
-    background: url("../assets/img/bg-mobile-fallback.jpg") #2a5555 no-repeat center center scroll;
-    background-size: cover;
-  }
 
 }
 .masthead {
@@ -10907,7 +10915,7 @@ video.bg-video {
   font-size: 2.5rem;
 }
 .masthead .masthead-content p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-align: left;
 }
 .masthead .masthead-content p strong {

@@ -6,23 +6,23 @@ function App() {
       <div className=''>
         <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
     {/* <!-- Masthead--> */}
-        <div className="masthead vh-100 d-flex align-items-center justify-content-center">
+         <div className="masthead vh-100 d-flex align-items-center justify-content-center">
             {/* Logo at the top */}
             <div className="logo-container text-center">
              <img src="assets/img/logo.png" alt="Logo" className="logo-image" />
            </div>
-        <div className="masthead-content text-white text-center">
-          <div className="container-fluid px-4 px-lg-0">
-            <h1 className="fst-italic lh-1 mb-4">We Are Coming Soon...</h1>
-            <p className="mb-5">
-              We are a talented women-led creative start-up ready to channelize your business
-              goals through advanced tools and techniques. Collaborate with us to get the best
-              digital marketing & IT services. We are launching our new venture on 25 October
-              2024. Let's meet in Kochi to begin the business journey!
-            </p>
-          </div>
-        </div>
-      </div>
+             <div className="masthead-content text-white text-center">
+               <div className="container-fluid px-4 px-sm">
+                 <h1 className="fst-italic lh-1 mb-4">We Are Coming Soon...</h1>
+                 <p className="mb-5">
+                     We are a talented women-led creative start-up ready to channelize your business
+                     goals through advanced tools and techniques. Collaborate with us to get the best
+                     digital marketing & IT services. We are launching our new venture on 25 October
+                     2024. Let's meet in Kochi to begin the business journey!
+                 </p>
+                </div>
+              </div>
+         </div>
         {/* <!-- Social Icons-->
         <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands--> */}
         <div class="social-icons">
