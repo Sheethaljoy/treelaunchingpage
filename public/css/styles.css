@@ -10916,11 +10916,11 @@ video.bg-video {
   font-size: 2rem;
 }
 .masthead .masthead-content p {
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: left;
 }
 .masthead .masthead-content p strong {
-  font-weight: 700;
+  font-weight: 600;
 }
 .masthead .masthead-content .input-group-newsletter input {
   height: auto;
