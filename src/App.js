@@ -4,8 +4,10 @@ function App() {
   return (
     <body>
       <div className=''>
-        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
-    {/* <!-- Masthead--> */}
+        // <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
+        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="https://drive.google.com/file/d/1wwfGZJkSCah2WBz6JiSZfb9_qXsWLPpD" type="video/mp4" /></video>
+   
+  {/* <!-- Masthead--> */}
          <div className="masthead vh-100 d-flex align-items-center justify-content-center">
             {/* Logo at the top */}
             <div className="logo-container text-center">
