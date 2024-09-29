@@ -7691,7 +7691,7 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
-  text-align:justify;
+  text-align:left;
 }
 
 .mb-auto {
@@ -7772,7 +7772,7 @@ textarea.form-control-lg {
 
 .px-4 {
   padding-right: 1.5rem !important;
-  padding-left: 1.5rem !important;
+  padding-left: 1rem !important;
 }
 
 .px-5 {
