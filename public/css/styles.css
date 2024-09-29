@@ -112,6 +112,7 @@
 }
 
 body {
+  /* background: url('./../public/assets/mp4/bg.mp4') no-repeat center center fixed; */
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
