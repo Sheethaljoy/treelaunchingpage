@@ -4,7 +4,7 @@ function App() {
   return (
     <body>
       <div className=''>
-       <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="https://cdn.pixabay.com/video/2021/10/30/93926-641767570_large.mp4" type="video/mp4" /></video>
+       <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="https://videos.pexels.com/video-files/25935023/11922060_1440_2560_24fps.mp4" type="video/mp4" /></video>
   {/* <!-- Masthead--> */}
          <div className="masthead vh-100 d-flex align-items-center justify-content-center">
             {/* Logo at the top */}
