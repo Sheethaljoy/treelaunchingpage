@@ -10908,19 +10908,19 @@ video.bg-video {
 }
 .masthead .masthead-content {
   position: relative;
-  max-width: 500rem;
-  padding-top: 10rem;
+  max-width: 100rem;
+  padding-top: 25rem;
   padding-bottom: 5rem;
 }
 .masthead .masthead-content h1, .masthead .masthead-content .h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .masthead .masthead-content p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: left;
 }
 .masthead .masthead-content p strong {
-  font-weight: 600;
+  font-weight: 700;
 }
 .masthead .masthead-content .input-group-newsletter input {
   height: auto;
